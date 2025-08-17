@@ -1,0 +1,469 @@
+{
+  "call_id": "call_1b57d661e79714a8331a2d63efe",
+  "agent_id": "agent_dfc93fde3e455a157b5a10f911",
+  "retell_llm_dynamic_variables": {
+    "gender": "Male",
+    "user_name": "raman",
+    "age": "20"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1734683714074,
+  "end_timestamp": 1734683727461,
+  "duration_ms": 13387,
+  "transcript": "Agent: Hello raman, I am Monika, I am here to collect your medical information.\nUser: Uh, can we stop talking?\nAgent: Alright, we'll stop the consultation for now. Take care of yourself.\n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.151,
+          "end": 0.499
+        },
+        {
+          "word": "raman, ",
+          "start": 0.499,
+          "end": 0.952
+        },
+        {
+          "word": "I ",
+          "start": 0.952,
+          "end": 1.08
+        },
+        {
+          "word": "am ",
+          "start": 1.08,
+          "end": 1.184
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.184,
+          "end": 1.672
+        },
+        {
+          "word": "I ",
+          "start": 1.672,
+          "end": 1.753
+        },
+        {
+          "word": "am ",
+          "start": 1.753,
+          "end": 1.892
+        },
+        {
+          "word": "here ",
+          "start": 1.892,
+          "end": 2.067
+        },
+        {
+          "word": "to ",
+          "start": 2.067,
+          "end": 2.159
+        },
+        {
+          "word": "collect ",
+          "start": 2.159,
+          "end": 2.45
+        },
+        {
+          "word": "your ",
+          "start": 2.45,
+          "end": 2.589
+        },
+        {
+          "word": "medical ",
+          "start": 2.589,
+          "end": 2.914
+        },
+        {
+          "word": "information.",
+          "start": 2.914,
+          "end": 3.762
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Uh, can we stop talking?",
+      "words": [
+        {
+          "word": "Uh, ",
+          "start": 6.288,
+          "end": 6.5280000000000005
+        },
+        {
+          "word": "can ",
+          "start": 6.5280000000000005,
+          "end": 6.688
+        },
+        {
+          "word": "we ",
+          "start": 6.688,
+          "end": 6.928
+        },
+        {
+          "word": "stop ",
+          "start": 6.928,
+          "end": 7.248
+        },
+        {
+          "word": "talking?",
+          "start": 7.248,
+          "end": 7.748
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Alright, we'll stop the consultation for now. Take care of yourself.",
+      "words": [
+        {
+          "word": "Alright, ",
+          "start": 9.96,
+          "end": 10.366
+        },
+        {
+          "word": "we'll ",
+          "start": 10.366,
+          "end": 10.587
+        },
+        {
+          "word": "stop ",
+          "start": 10.587,
+          "end": 10.796
+        },
+        {
+          "word": "the ",
+          "start": 10.796,
+          "end": 10.9
+        },
+        {
+          "word": "consultation ",
+          "start": 10.9,
+          "end": 11.516
+        },
+        {
+          "word": "for ",
+          "start": 11.516,
+          "end": 11.666
+        },
+        {
+          "word": "now. ",
+          "start": 11.666,
+          "end": 12.154
+        },
+        {
+          "word": "Take ",
+          "start": 12.153375,
+          "end": 12.199375
+        },
+        {
+          "word": "care ",
+          "start": 12.199375,
+          "end": 12.466375
+        },
+        {
+          "word": "of ",
+          "start": 12.466375,
+          "end": 12.617375
+        },
+        {
+          "word": "yourself.",
+          "start": 12.617375,
+          "end": 12.710375
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.151,
+          "end": 0.499
+        },
+        {
+          "word": "raman, ",
+          "start": 0.499,
+          "end": 0.952
+        },
+        {
+          "word": "I ",
+          "start": 0.952,
+          "end": 1.08
+        },
+        {
+          "word": "am ",
+          "start": 1.08,
+          "end": 1.184
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.184,
+          "end": 1.672
+        },
+        {
+          "word": "I ",
+          "start": 1.672,
+          "end": 1.753
+        },
+        {
+          "word": "am ",
+          "start": 1.753,
+          "end": 1.892
+        },
+        {
+          "word": "here ",
+          "start": 1.892,
+          "end": 2.067
+        },
+        {
+          "word": "to ",
+          "start": 2.067,
+          "end": 2.159
+        },
+        {
+          "word": "collect ",
+          "start": 2.159,
+          "end": 2.45
+        },
+        {
+          "word": "your ",
+          "start": 2.45,
+          "end": 2.589
+        },
+        {
+          "word": "medical ",
+          "start": 2.589,
+          "end": 2.914
+        },
+        {
+          "word": "information.",
+          "start": 2.914,
+          "end": 3.762
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Uh, can we stop talking?",
+      "words": [
+        {
+          "word": "Uh, ",
+          "start": 6.288,
+          "end": 6.5280000000000005
+        },
+        {
+          "word": "can ",
+          "start": 6.5280000000000005,
+          "end": 6.688
+        },
+        {
+          "word": "we ",
+          "start": 6.688,
+          "end": 6.928
+        },
+        {
+          "word": "stop ",
+          "start": 6.928,
+          "end": 7.248
+        },
+        {
+          "word": "talking?",
+          "start": 7.248,
+          "end": 7.748
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Alright, we'll stop the consultation for now. Take care of yourself.",
+      "words": [
+        {
+          "word": "Alright, ",
+          "start": 9.96,
+          "end": 10.366
+        },
+        {
+          "word": "we'll ",
+          "start": 10.366,
+          "end": 10.587
+        },
+        {
+          "word": "stop ",
+          "start": 10.587,
+          "end": 10.796
+        },
+        {
+          "word": "the ",
+          "start": 10.796,
+          "end": 10.9
+        },
+        {
+          "word": "consultation ",
+          "start": 10.9,
+          "end": 11.516
+        },
+        {
+          "word": "for ",
+          "start": 11.516,
+          "end": 11.666
+        },
+        {
+          "word": "now. ",
+          "start": 11.666,
+          "end": 12.154
+        },
+        {
+          "word": "Take ",
+          "start": 12.153375,
+          "end": 12.199375
+        },
+        {
+          "word": "care ",
+          "start": 12.199375,
+          "end": 12.466375
+        },
+        {
+          "word": "of ",
+          "start": 12.466375,
+          "end": 12.617375
+        },
+        {
+          "word": "yourself.",
+          "start": 12.617375,
+          "end": 12.710375
+        }
+      ],
+      "metadata": {
+        "response_id": 1
+      }
+    },
+    {
+      "role": "tool_call_invocation",
+      "tool_call_id": "2d6327d7def189e4",
+      "name": "end_call",
+      "arguments": "{\"execution_message\": \"Alright, we'll stop the consultation for now. Take care of yourself.\"}"
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/call_1b57d661e79714a8331a2d63efe/recording.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/call_1b57d661e79714a8331a2d63efe/public.log",
+  "disconnection_reason": "agent_hangup",
+  "latency": {
+    "llm": {
+      "p99": 1646.37,
+      "min": 0,
+      "max": 1663,
+      "p90": 1496.6999999999998,
+      "num": 2,
+      "values": [
+        0,
+        1663
+      ],
+      "p50": 831.5,
+      "p95": 1579.85
+    },
+    "e2e": {
+      "p99": 2177,
+      "min": 2177,
+      "max": 2177,
+      "p90": 2177,
+      "num": 1,
+      "values": [
+        2177
+      ],
+      "p50": 2177,
+      "p95": 2177
+    },
+    "tts": {
+      "p99": 571.3299999999999,
+      "min": 307,
+      "max": 574,
+      "p90": 547.3,
+      "num": 2,
+      "values": [
+        574,
+        307
+      ],
+      "p50": 440.5,
+      "p95": 560.65
+    }
+  },
+  "cost_metadata": {
+    "llm_model": "claude-3.5-haiku",
+    "voice_provider": "elevenlabs"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.15,
+    "product_costs": [
+      {
+        "unit_price": 0,
+        "product": "retell_platform",
+        "cost": 0
+      },
+      {
+        "unit_price": 0.1166667,
+        "product": "elevenlabs_tts",
+        "cost": 1.5166667
+      },
+      {
+        "unit_price": 0.0333333,
+        "product": "claude_3_5_haiku",
+        "cost": 0.4333333
+      }
+    ],
+    "total_one_time_price": 0,
+    "combined_cost": 1.95,
+    "total_duration_seconds": 13
+  },
+  "call_analysis": {
+    "custom_analysis_data": {},
+    "agent_task_completion_rating": "Incomplete",
+    "call_successful": false,
+    "in_voicemail": false,
+    "call_summary": "The call involved an agent named Monika attempting to collect medical information from the user, Raman. However, the user requested to stop the conversation, leading the agent to end the call amicably.",
+    "user_sentiment": "Negative",
+    "call_completion_rating": "Incomplete"
+  },
+  "opt_out_sensitive_data_storage": false,
+  "llm_latency": {
+    "p99": 1646.37,
+    "min": 0,
+    "max": 1663,
+    "p90": 1496.6999999999998,
+    "num": 2,
+    "values": [
+      0,
+      1663
+    ],
+    "p50": 831.5,
+    "p95": 1579.85
+  },
+  "e2e_latency": {
+    "p99": 2177,
+    "min": 2177,
+    "max": 2177,
+    "p90": 2177,
+    "num": 1,
+    "values": [
+      2177
+    ],
+    "p50": 2177,
+    "p95": 2177
+  },
+  "call_type": "web_call",
+  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6IndlYl9jYWxsXzFiNTdkNjYxZTc5NzE0YTgzMzFhMmQ2M2VmZSJ9LCJpc3MiOiJBUElqWGZBMzVHTmM3WHgiLCJleHAiOjE3MzQ2ODQzMTMsIm5iZiI6MCwic3ViIjoiY2xpZW50In0.2ANraX9xP8eB0MgvdmXGX0BHeOMJNIgVtuNhQLSPE5A"
+}

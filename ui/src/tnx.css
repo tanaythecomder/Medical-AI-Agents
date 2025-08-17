@@ -1,0 +1,154 @@
+.thank-you-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.logo-container {
+    position: fixed;
+    top: 5rem;
+    left: 2rem;
+    z-index: 3;
+}
+
+.logo-container img {
+    height: 3.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    z-index: 2;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+}
+
+.user-info {
+    display: flex;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    position: relative;
+    right: 2rem;
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    white-space: nowrap;
+}
+
+.detail-label {
+    color: #64748b;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.detail-value {
+    color: #1e293b;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.25rem;
+}
+
+.content-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 90%;
+    max-width: 800px;
+    min-height: 350px;
+    backdrop-filter: blur(10px);
+    margin: 25vh auto 2rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    font-weight: 600;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.proceed-button {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
+}
+
+.proceed-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.3);
+    background: #4338ca;
+}
+
+.lottie-container {
+    position: fixed;
+    bottom: -10%;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.lottie-animation {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transform: scale(1.5);
+}

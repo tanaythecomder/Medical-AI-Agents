@@ -1,0 +1,560 @@
+{
+  "call_id": "call_b2b6784040695d3837f38b7a66a",
+  "agent_id": "agent_dfc93fde3e455a157b5a10f911",
+  "retell_llm_dynamic_variables": {
+    "gender": "Male",
+    "user_name": "raman",
+    "age": "20"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1734686833357,
+  "end_timestamp": 1734686847857,
+  "duration_ms": 14500,
+  "transcript": "Agent: Hello raman, I am Monika, I am here to collect your medical information.\nUser: Can we end the conversation now?\nAgent: Thank you for your time. If you need any medical assistance in the future, please don't hesitate to reach out.\n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.151,
+          "end": 0.476
+        },
+        {
+          "word": "raman, ",
+          "start": 0.476,
+          "end": 1.022
+        },
+        {
+          "word": "I ",
+          "start": 1.022,
+          "end": 1.196
+        },
+        {
+          "word": "am ",
+          "start": 1.196,
+          "end": 1.312
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.312,
+          "end": 1.834
+        },
+        {
+          "word": "I ",
+          "start": 1.834,
+          "end": 1.95
+        },
+        {
+          "word": "am ",
+          "start": 1.95,
+          "end": 2.067
+        },
+        {
+          "word": "here ",
+          "start": 2.067,
+          "end": 2.218
+        },
+        {
+          "word": "to ",
+          "start": 2.218,
+          "end": 2.299
+        },
+        {
+          "word": "collect ",
+          "start": 2.299,
+          "end": 2.589
+        },
+        {
+          "word": "your ",
+          "start": 2.589,
+          "end": 2.717
+        },
+        {
+          "word": "medical ",
+          "start": 2.717,
+          "end": 3.042
+        },
+        {
+          "word": "information.",
+          "start": 3.042,
+          "end": 3.947
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Can we end the conversation now?",
+      "words": [
+        {
+          "word": "Can ",
+          "start": 4.8149999999999995,
+          "end": 5.055
+        },
+        {
+          "word": "we ",
+          "start": 5.055,
+          "end": 5.135
+        },
+        {
+          "word": "end ",
+          "start": 5.135,
+          "end": 5.375
+        },
+        {
+          "word": "the ",
+          "start": 5.375,
+          "end": 5.535
+        },
+        {
+          "word": "conversation ",
+          "start": 5.535,
+          "end": 5.775
+        },
+        {
+          "word": "now?",
+          "start": 5.775,
+          "end": 6.275
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you for your time. If you need any medical assistance in the future, please don't hesitate to reach out.",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 9.101,
+          "end": 9.345
+        },
+        {
+          "word": "you ",
+          "start": 9.345,
+          "end": 9.461
+        },
+        {
+          "word": "for ",
+          "start": 9.461,
+          "end": 9.588
+        },
+        {
+          "word": "your ",
+          "start": 9.588,
+          "end": 9.739
+        },
+        {
+          "word": "time. ",
+          "start": 9.739,
+          "end": 10.273
+        },
+        {
+          "word": "If ",
+          "start": 10.272583251953124,
+          "end": 10.284583251953125
+        },
+        {
+          "word": "you ",
+          "start": 10.284583251953125,
+          "end": 10.481583251953126
+        },
+        {
+          "word": "need ",
+          "start": 10.481583251953126,
+          "end": 10.609583251953126
+        },
+        {
+          "word": "any ",
+          "start": 10.609583251953126,
+          "end": 10.829583251953125
+        },
+        {
+          "word": "medical ",
+          "start": 10.829583251953125,
+          "end": 11.120583251953125
+        },
+        {
+          "word": "assistance ",
+          "start": 11.120583251953125,
+          "end": 11.479583251953125
+        },
+        {
+          "word": "in ",
+          "start": 11.479583251953125,
+          "end": 12.002583251953125
+        },
+        {
+          "word": "the ",
+          "start": 12.002583251953125,
+          "end": 12.083583251953126
+        },
+        {
+          "word": "future, ",
+          "start": 12.083583251953126,
+          "end": 12.199583251953126
+        },
+        {
+          "word": "please ",
+          "start": 12.199583251953126,
+          "end": 12.675583251953125
+        },
+        {
+          "word": "don't ",
+          "start": 12.675583251953125,
+          "end": 12.989583251953125
+        },
+        {
+          "word": "hesitate ",
+          "start": 12.989583251953125,
+          "end": 13.233583251953124
+        },
+        {
+          "word": "to ",
+          "start": 13.233583251953124,
+          "end": 13.732583251953125
+        },
+        {
+          "word": "reach ",
+          "start": 13.732583251953125,
+          "end": 13.859583251953126
+        },
+        {
+          "word": "out.",
+          "start": 13.859583251953126,
+          "end": 14.103583251953125
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.151,
+          "end": 0.476
+        },
+        {
+          "word": "raman, ",
+          "start": 0.476,
+          "end": 1.022
+        },
+        {
+          "word": "I ",
+          "start": 1.022,
+          "end": 1.196
+        },
+        {
+          "word": "am ",
+          "start": 1.196,
+          "end": 1.312
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.312,
+          "end": 1.834
+        },
+        {
+          "word": "I ",
+          "start": 1.834,
+          "end": 1.95
+        },
+        {
+          "word": "am ",
+          "start": 1.95,
+          "end": 2.067
+        },
+        {
+          "word": "here ",
+          "start": 2.067,
+          "end": 2.218
+        },
+        {
+          "word": "to ",
+          "start": 2.218,
+          "end": 2.299
+        },
+        {
+          "word": "collect ",
+          "start": 2.299,
+          "end": 2.589
+        },
+        {
+          "word": "your ",
+          "start": 2.589,
+          "end": 2.717
+        },
+        {
+          "word": "medical ",
+          "start": 2.717,
+          "end": 3.042
+        },
+        {
+          "word": "information.",
+          "start": 3.042,
+          "end": 3.947
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "Can we end the conversation now?",
+      "words": [
+        {
+          "word": "Can ",
+          "start": 4.8149999999999995,
+          "end": 5.055
+        },
+        {
+          "word": "we ",
+          "start": 5.055,
+          "end": 5.135
+        },
+        {
+          "word": "end ",
+          "start": 5.135,
+          "end": 5.375
+        },
+        {
+          "word": "the ",
+          "start": 5.375,
+          "end": 5.535
+        },
+        {
+          "word": "conversation ",
+          "start": 5.535,
+          "end": 5.775
+        },
+        {
+          "word": "now?",
+          "start": 5.775,
+          "end": 6.275
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Thank you for your time. If you need any medical assistance in the future, please don't hesitate to reach out.",
+      "words": [
+        {
+          "word": "Thank ",
+          "start": 9.101,
+          "end": 9.345
+        },
+        {
+          "word": "you ",
+          "start": 9.345,
+          "end": 9.461
+        },
+        {
+          "word": "for ",
+          "start": 9.461,
+          "end": 9.588
+        },
+        {
+          "word": "your ",
+          "start": 9.588,
+          "end": 9.739
+        },
+        {
+          "word": "time. ",
+          "start": 9.739,
+          "end": 10.273
+        },
+        {
+          "word": "If ",
+          "start": 10.272583251953124,
+          "end": 10.284583251953125
+        },
+        {
+          "word": "you ",
+          "start": 10.284583251953125,
+          "end": 10.481583251953126
+        },
+        {
+          "word": "need ",
+          "start": 10.481583251953126,
+          "end": 10.609583251953126
+        },
+        {
+          "word": "any ",
+          "start": 10.609583251953126,
+          "end": 10.829583251953125
+        },
+        {
+          "word": "medical ",
+          "start": 10.829583251953125,
+          "end": 11.120583251953125
+        },
+        {
+          "word": "assistance ",
+          "start": 11.120583251953125,
+          "end": 11.479583251953125
+        },
+        {
+          "word": "in ",
+          "start": 11.479583251953125,
+          "end": 12.002583251953125
+        },
+        {
+          "word": "the ",
+          "start": 12.002583251953125,
+          "end": 12.083583251953126
+        },
+        {
+          "word": "future, ",
+          "start": 12.083583251953126,
+          "end": 12.199583251953126
+        },
+        {
+          "word": "please ",
+          "start": 12.199583251953126,
+          "end": 12.675583251953125
+        },
+        {
+          "word": "don't ",
+          "start": 12.675583251953125,
+          "end": 12.989583251953125
+        },
+        {
+          "word": "hesitate ",
+          "start": 12.989583251953125,
+          "end": 13.233583251953124
+        },
+        {
+          "word": "to ",
+          "start": 13.233583251953124,
+          "end": 13.732583251953125
+        },
+        {
+          "word": "reach ",
+          "start": 13.732583251953125,
+          "end": 13.859583251953126
+        },
+        {
+          "word": "out.",
+          "start": 13.859583251953126,
+          "end": 14.103583251953125
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "tool_call_invocation",
+      "tool_call_id": "5c25e2574c399c8c",
+      "name": "end_call",
+      "arguments": "{\"execution_message\": \"Thank you for your time. If you need any medical assistance in the future, please don't hesitate to reach out.\"}"
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/call_b2b6784040695d3837f38b7a66a/recording.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/call_b2b6784040695d3837f38b7a66a/public.log",
+  "disconnection_reason": "agent_hangup",
+  "latency": {
+    "llm": {
+      "p99": 1913.67,
+      "min": 0,
+      "max": 1933,
+      "p90": 1739.6999999999998,
+      "num": 2,
+      "values": [
+        0,
+        1933
+      ],
+      "p50": 966.5,
+      "p95": 1836.35
+    },
+    "e2e": {
+      "p99": 2698,
+      "min": 2698,
+      "max": 2698,
+      "p90": 2698,
+      "num": 1,
+      "values": [
+        2698
+      ],
+      "p50": 2698,
+      "p95": 2698
+    },
+    "tts": {
+      "p99": 399.07,
+      "min": 307,
+      "max": 400,
+      "p90": 390.7,
+      "num": 2,
+      "values": [
+        400,
+        307
+      ],
+      "p50": 353.5,
+      "p95": 395.35
+    }
+  },
+  "cost_metadata": {
+    "llm_model": "claude-3.5-haiku",
+    "voice_provider": "elevenlabs"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.15,
+    "product_costs": [
+      {
+        "unit_price": 0,
+        "product": "retell_platform",
+        "cost": 0
+      },
+      {
+        "unit_price": 0.1166667,
+        "product": "elevenlabs_tts",
+        "cost": 1.6333333
+      },
+      {
+        "unit_price": 0.0333333,
+        "product": "claude_3_5_haiku",
+        "cost": 0.4666667
+      }
+    ],
+    "total_one_time_price": 0,
+    "combined_cost": 2.1,
+    "total_duration_seconds": 14
+  },
+  "opt_out_sensitive_data_storage": false,
+  "llm_latency": {
+    "p99": 1913.67,
+    "min": 0,
+    "max": 1933,
+    "p90": 1739.6999999999998,
+    "num": 2,
+    "values": [
+      0,
+      1933
+    ],
+    "p50": 966.5,
+    "p95": 1836.35
+  },
+  "e2e_latency": {
+    "p99": 2698,
+    "min": 2698,
+    "max": 2698,
+    "p90": 2698,
+    "num": 1,
+    "values": [
+      2698
+    ],
+    "p50": 2698,
+    "p95": 2698
+  },
+  "call_type": "web_call",
+  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6IndlYl9jYWxsX2IyYjY3ODQwNDA2OTVkMzgzN2YzOGI3YTY2YSJ9LCJpc3MiOiJBUElqWGZBMzVHTmM3WHgiLCJleHAiOjE3MzQ2ODc0MzIsIm5iZiI6MCwic3ViIjoiY2xpZW50In0.w1FtPuue1DqLTvH3Sd6IQ0LtqXzdLNw5i1q57xA63WY"
+}

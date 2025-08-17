@@ -1,0 +1,252 @@
+/* ChatPage.css */
+.chat-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    z-index: 2;
+    position: fixed;
+    top: 5rem;
+    left: 30;
+}
+
+.logo-container {
+    position: fixed;
+    top: 5rem;
+    left: -50rem;
+    z-index: 3;
+}
+
+.logo-image {
+    height: 3.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.user-info {
+    display: flex;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    position: relative;
+    left: -5rem;
+    top: -1rem;
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.detail-label {
+    color: #64748b;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.detail-value {
+    color: #1e293b;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.chat-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 95%;
+    max-width: 900px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin: 15vh auto 2rem auto;
+    margin-top: calc(35vh + 2rem);
+    padding: 1rem;
+}
+
+.status-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+}
+
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #cbd5e1;
+}
+
+.status-indicator.active {
+    background: #22c55e;
+}
+
+.status-indicator.error {
+    background: #ef4444;
+}
+
+.status-indicator.completed {
+    background: #3b82f6;
+}
+
+.status-indicator.initializing {
+    background: #f59e0b;
+}
+
+.status-text {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.transcript-section {
+    padding: 2rem;
+}
+
+.transcript-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: 450px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.message-bubble {
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(229, 231, 235, 0.5);
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+}
+
+.agent-name {
+    color: #1e293b;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.message-time {
+    color: #64748b;
+    font-size: 0.75rem;
+}
+
+.message-text {
+    color: #334155;
+    line-height: 1.625;
+    font-size: 1rem;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.lottie-container {
+    position: fixed;
+    bottom: -5%;
+    left: -5%;
+    right: -5%;
+    height: 80%;
+    z-index: 1;
+    opacity: 0.5;
+    pointer-events: none;
+    animation: float 2s ease-in-out infinite;
+}
+
+.lottie-animation {
+    width: 100%;
+    height: 100%;
+    transform: scale(2.8);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px) scale(2.8);
+    }
+    50% {
+        transform: translateY(-30px) scale(3);
+    }
+    100% {
+        transform: translateY(0px) scale(2.8);
+    }
+}
+
+/* Scrollbar styling */
+.transcript-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.transcript-content::-webkit-scrollbar-track {
+    background: rgba(241, 245, 249, 0.5);
+    border-radius: 3px;
+}
+
+.transcript-content::-webkit-scrollbar-thumb {
+    background: rgba(203, 213, 225, 0.8);
+    border-radius: 3px;
+}
+
+.transcript-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.9);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(10px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .user-info {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+    }
+
+    .user-detail {
+        justify-content: space-between;
+        width: 100%;
+    }
+}

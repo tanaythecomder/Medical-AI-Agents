@@ -1,0 +1,945 @@
+{
+  "call_id": "call_71d3d83a1a02d5167c6127c7034",
+  "agent_id": "agent_dfc93fde3e455a157b5a10f911",
+  "retell_llm_dynamic_variables": {
+    "gender": "Male",
+    "user_name": "raman",
+    "age": "20"
+  },
+  "call_status": "ended",
+  "start_timestamp": 1734689279929,
+  "end_timestamp": 1734689306055,
+  "duration_ms": 26126,
+  "transcript": "Agent: Hello raman, I am Monika, I am here to collect your medical information.\nUser: What can you do? I have a puff.\nAgent: Hello raman. I understand you mentioned having a \"puff\" - could you please clarify what you mean by that? Are you experiencing \nUser: Uh, can \nAgent: respiratory \nUser: we end the conversation now?\nAgent: Alright, we'll end our consultation here. If you need medical assistance in the future, please don't hesitate to reach out.\n",
+  "transcript_object": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.175,
+          "end": 0.489
+        },
+        {
+          "word": "raman, ",
+          "start": 0.489,
+          "end": 1.011
+        },
+        {
+          "word": "I ",
+          "start": 1.011,
+          "end": 1.185
+        },
+        {
+          "word": "am ",
+          "start": 1.185,
+          "end": 1.348
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.348,
+          "end": 1.882
+        },
+        {
+          "word": "I ",
+          "start": 1.882,
+          "end": 1.986
+        },
+        {
+          "word": "am ",
+          "start": 1.986,
+          "end": 2.114
+        },
+        {
+          "word": "here ",
+          "start": 2.114,
+          "end": 2.277
+        },
+        {
+          "word": "to ",
+          "start": 2.277,
+          "end": 2.369
+        },
+        {
+          "word": "collect ",
+          "start": 2.369,
+          "end": 2.636
+        },
+        {
+          "word": "your ",
+          "start": 2.636,
+          "end": 2.764
+        },
+        {
+          "word": "medical ",
+          "start": 2.764,
+          "end": 3.078
+        },
+        {
+          "word": "information.",
+          "start": 3.078,
+          "end": 3.856
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "What can you do? I have a puff.",
+      "words": [
+        {
+          "word": "What ",
+          "start": 5.836,
+          "end": 6.156000000000001
+        },
+        {
+          "word": "can ",
+          "start": 6.156000000000001,
+          "end": 6.316000000000001
+        },
+        {
+          "word": "you ",
+          "start": 6.316000000000001,
+          "end": 6.635999999999999
+        },
+        {
+          "word": "do? ",
+          "start": 6.635999999999999,
+          "end": 6.795999999999999
+        },
+        {
+          "word": "I ",
+          "start": 6.795999999999999,
+          "end": 6.9559999999999995
+        },
+        {
+          "word": "have ",
+          "start": 6.9559999999999995,
+          "end": 7.196
+        },
+        {
+          "word": "a ",
+          "start": 7.196,
+          "end": 7.356
+        },
+        {
+          "word": "puff.",
+          "start": 7.356,
+          "end": 7.806000000000001
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hello raman. I understand you mentioned having a \"puff\" - could you please clarify what you mean by that? Are you experiencing ",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 9.474,
+          "end": 9.764
+        },
+        {
+          "word": "raman.",
+          "start": 9.764,
+          "end": 10.345
+        },
+        {
+          "word": " I ",
+          "start": 10.343916748046874,
+          "end": 10.366916748046876
+        },
+        {
+          "word": "understand ",
+          "start": 10.366916748046876,
+          "end": 10.482916748046875
+        },
+        {
+          "word": "you ",
+          "start": 10.482916748046875,
+          "end": 10.877916748046875
+        },
+        {
+          "word": "mentioned ",
+          "start": 10.877916748046875,
+          "end": 10.993916748046875
+        },
+        {
+          "word": "having ",
+          "start": 10.993916748046875,
+          "end": 11.307916748046875
+        },
+        {
+          "word": "a ",
+          "start": 11.307916748046875,
+          "end": 11.574916748046874
+        },
+        {
+          "word": "\"puff\"",
+          "start": 11.574916748046874,
+          "end": 11.632916748046876
+        },
+        {
+          "word": " - ",
+          "start": 12.247208251953126,
+          "end": 12.447208251953125
+        },
+        {
+          "word": "could ",
+          "start": 12.447208251953125,
+          "end": 12.482208251953125
+        },
+        {
+          "word": "you ",
+          "start": 12.482208251953125,
+          "end": 12.691208251953125
+        },
+        {
+          "word": "please ",
+          "start": 12.691208251953125,
+          "end": 12.795208251953126
+        },
+        {
+          "word": "clarify ",
+          "start": 12.795208251953126,
+          "end": 13.039208251953125
+        },
+        {
+          "word": "what ",
+          "start": 13.039208251953125,
+          "end": 13.469208251953125
+        },
+        {
+          "word": "you ",
+          "start": 13.469208251953125,
+          "end": 13.608208251953124
+        },
+        {
+          "word": "mean ",
+          "start": 13.608208251953124,
+          "end": 13.724208251953126
+        },
+        {
+          "word": "by ",
+          "start": 13.724208251953126,
+          "end": 13.921208251953125
+        },
+        {
+          "word": "that? ",
+          "start": 13.921208251953125,
+          "end": 14.061208251953126
+        },
+        {
+          "word": "Are ",
+          "start": 14.489791748046875,
+          "end": 14.501791748046875
+        },
+        {
+          "word": "you ",
+          "start": 14.501791748046875,
+          "end": 14.710791748046875
+        },
+        {
+          "word": "experiencing ",
+          "start": 14.710791748046875,
+          "end": 14.826791748046874
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "Uh, can ",
+      "words": [
+        {
+          "word": "Uh, ",
+          "start": 15.155999999999999,
+          "end": 15.315999999999999
+        },
+        {
+          "word": "can ",
+          "start": 15.315999999999999,
+          "end": 15.475999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "respiratory ",
+      "words": [
+        {
+          "word": "respiratory ",
+          "start": 14.826791748046874,
+          "end": 15.487791748046876
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "we end the conversation now?",
+      "words": [
+        {
+          "word": "we ",
+          "start": 15.475999999999999,
+          "end": 15.6359995
+        },
+        {
+          "word": "end ",
+          "start": 15.6359995,
+          "end": 15.876
+        },
+        {
+          "word": "the ",
+          "start": 15.876,
+          "end": 15.956
+        },
+        {
+          "word": "conversation ",
+          "start": 15.956,
+          "end": 16.456
+        },
+        {
+          "word": "now?",
+          "start": 16.755999,
+          "end": 16.986
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Alright, we'll end our consultation here. If you need medical assistance in the future, please don't hesitate to reach out.",
+      "words": [
+        {
+          "word": "Alright, ",
+          "start": 19.625,
+          "end": 20.252
+        },
+        {
+          "word": "we'll ",
+          "start": 20.252,
+          "end": 20.496
+        },
+        {
+          "word": "end ",
+          "start": 20.496,
+          "end": 20.623
+        },
+        {
+          "word": "our ",
+          "start": 20.623,
+          "end": 20.763
+        },
+        {
+          "word": "consultation ",
+          "start": 20.763,
+          "end": 21.448
+        },
+        {
+          "word": "here. ",
+          "start": 21.448,
+          "end": 21.912
+        },
+        {
+          "word": "If ",
+          "start": 21.91125,
+          "end": 21.92325
+        },
+        {
+          "word": "you ",
+          "start": 21.92325,
+          "end": 22.10825
+        },
+        {
+          "word": "need ",
+          "start": 22.10825,
+          "end": 22.23625
+        },
+        {
+          "word": "medical ",
+          "start": 22.23625,
+          "end": 22.44525
+        },
+        {
+          "word": "assistance ",
+          "start": 22.44525,
+          "end": 22.80525
+        },
+        {
+          "word": "in ",
+          "start": 22.80525,
+          "end": 23.26925
+        },
+        {
+          "word": "the ",
+          "start": 23.26925,
+          "end": 23.37425
+        },
+        {
+          "word": "future, ",
+          "start": 23.37425,
+          "end": 23.47825
+        },
+        {
+          "word": "please ",
+          "start": 23.47825,
+          "end": 24.12925
+        },
+        {
+          "word": "don't ",
+          "start": 24.12925,
+          "end": 24.40725
+        },
+        {
+          "word": "hesitate ",
+          "start": 24.40725,
+          "end": 24.61625
+        },
+        {
+          "word": "to ",
+          "start": 24.61625,
+          "end": 25.06925
+        },
+        {
+          "word": "reach ",
+          "start": 25.06925,
+          "end": 25.17325
+        },
+        {
+          "word": "out.",
+          "start": 25.17325,
+          "end": 25.41725
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    }
+  ],
+  "transcript_with_tool_calls": [
+    {
+      "role": "agent",
+      "content": "Hello raman, I am Monika, I am here to collect your medical information.",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 0.175,
+          "end": 0.489
+        },
+        {
+          "word": "raman, ",
+          "start": 0.489,
+          "end": 1.011
+        },
+        {
+          "word": "I ",
+          "start": 1.011,
+          "end": 1.185
+        },
+        {
+          "word": "am ",
+          "start": 1.185,
+          "end": 1.348
+        },
+        {
+          "word": "Monika, ",
+          "start": 1.348,
+          "end": 1.882
+        },
+        {
+          "word": "I ",
+          "start": 1.882,
+          "end": 1.986
+        },
+        {
+          "word": "am ",
+          "start": 1.986,
+          "end": 2.114
+        },
+        {
+          "word": "here ",
+          "start": 2.114,
+          "end": 2.277
+        },
+        {
+          "word": "to ",
+          "start": 2.277,
+          "end": 2.369
+        },
+        {
+          "word": "collect ",
+          "start": 2.369,
+          "end": 2.636
+        },
+        {
+          "word": "your ",
+          "start": 2.636,
+          "end": 2.764
+        },
+        {
+          "word": "medical ",
+          "start": 2.764,
+          "end": 3.078
+        },
+        {
+          "word": "information.",
+          "start": 3.078,
+          "end": 3.856
+        }
+      ],
+      "metadata": {
+        "response_id": 0
+      }
+    },
+    {
+      "role": "user",
+      "content": "What can you do? I have a puff.",
+      "words": [
+        {
+          "word": "What ",
+          "start": 5.836,
+          "end": 6.156000000000001
+        },
+        {
+          "word": "can ",
+          "start": 6.156000000000001,
+          "end": 6.316000000000001
+        },
+        {
+          "word": "you ",
+          "start": 6.316000000000001,
+          "end": 6.635999999999999
+        },
+        {
+          "word": "do? ",
+          "start": 6.635999999999999,
+          "end": 6.795999999999999
+        },
+        {
+          "word": "I ",
+          "start": 6.795999999999999,
+          "end": 6.9559999999999995
+        },
+        {
+          "word": "have ",
+          "start": 6.9559999999999995,
+          "end": 7.196
+        },
+        {
+          "word": "a ",
+          "start": 7.196,
+          "end": 7.356
+        },
+        {
+          "word": "puff.",
+          "start": 7.356,
+          "end": 7.806000000000001
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Hello raman. I understand you mentioned having a \"puff\" - could you please clarify what you mean by that? Are you experiencing ",
+      "words": [
+        {
+          "word": "Hello ",
+          "start": 9.474,
+          "end": 9.764
+        },
+        {
+          "word": "raman.",
+          "start": 9.764,
+          "end": 10.345
+        },
+        {
+          "word": " I ",
+          "start": 10.343916748046874,
+          "end": 10.366916748046876
+        },
+        {
+          "word": "understand ",
+          "start": 10.366916748046876,
+          "end": 10.482916748046875
+        },
+        {
+          "word": "you ",
+          "start": 10.482916748046875,
+          "end": 10.877916748046875
+        },
+        {
+          "word": "mentioned ",
+          "start": 10.877916748046875,
+          "end": 10.993916748046875
+        },
+        {
+          "word": "having ",
+          "start": 10.993916748046875,
+          "end": 11.307916748046875
+        },
+        {
+          "word": "a ",
+          "start": 11.307916748046875,
+          "end": 11.574916748046874
+        },
+        {
+          "word": "\"puff\"",
+          "start": 11.574916748046874,
+          "end": 11.632916748046876
+        },
+        {
+          "word": " - ",
+          "start": 12.247208251953126,
+          "end": 12.447208251953125
+        },
+        {
+          "word": "could ",
+          "start": 12.447208251953125,
+          "end": 12.482208251953125
+        },
+        {
+          "word": "you ",
+          "start": 12.482208251953125,
+          "end": 12.691208251953125
+        },
+        {
+          "word": "please ",
+          "start": 12.691208251953125,
+          "end": 12.795208251953126
+        },
+        {
+          "word": "clarify ",
+          "start": 12.795208251953126,
+          "end": 13.039208251953125
+        },
+        {
+          "word": "what ",
+          "start": 13.039208251953125,
+          "end": 13.469208251953125
+        },
+        {
+          "word": "you ",
+          "start": 13.469208251953125,
+          "end": 13.608208251953124
+        },
+        {
+          "word": "mean ",
+          "start": 13.608208251953124,
+          "end": 13.724208251953126
+        },
+        {
+          "word": "by ",
+          "start": 13.724208251953126,
+          "end": 13.921208251953125
+        },
+        {
+          "word": "that? ",
+          "start": 13.921208251953125,
+          "end": 14.061208251953126
+        },
+        {
+          "word": "Are ",
+          "start": 14.489791748046875,
+          "end": 14.501791748046875
+        },
+        {
+          "word": "you ",
+          "start": 14.501791748046875,
+          "end": 14.710791748046875
+        },
+        {
+          "word": "experiencing ",
+          "start": 14.710791748046875,
+          "end": 14.826791748046874
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "Uh, can ",
+      "words": [
+        {
+          "word": "Uh, ",
+          "start": 15.155999999999999,
+          "end": 15.315999999999999
+        },
+        {
+          "word": "can ",
+          "start": 15.315999999999999,
+          "end": 15.475999999999999
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "respiratory ",
+      "words": [
+        {
+          "word": "respiratory ",
+          "start": 14.826791748046874,
+          "end": 15.487791748046876
+        }
+      ],
+      "metadata": {
+        "response_id": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "we end the conversation now?",
+      "words": [
+        {
+          "word": "we ",
+          "start": 15.475999999999999,
+          "end": 15.6359995
+        },
+        {
+          "word": "end ",
+          "start": 15.6359995,
+          "end": 15.876
+        },
+        {
+          "word": "the ",
+          "start": 15.876,
+          "end": 15.956
+        },
+        {
+          "word": "conversation ",
+          "start": 15.956,
+          "end": 16.456
+        },
+        {
+          "word": "now?",
+          "start": 16.755999,
+          "end": 16.986
+        }
+      ]
+    },
+    {
+      "role": "agent",
+      "content": "Alright, we'll end our consultation here. If you need medical assistance in the future, please don't hesitate to reach out.",
+      "words": [
+        {
+          "word": "Alright, ",
+          "start": 19.625,
+          "end": 20.252
+        },
+        {
+          "word": "we'll ",
+          "start": 20.252,
+          "end": 20.496
+        },
+        {
+          "word": "end ",
+          "start": 20.496,
+          "end": 20.623
+        },
+        {
+          "word": "our ",
+          "start": 20.623,
+          "end": 20.763
+        },
+        {
+          "word": "consultation ",
+          "start": 20.763,
+          "end": 21.448
+        },
+        {
+          "word": "here. ",
+          "start": 21.448,
+          "end": 21.912
+        },
+        {
+          "word": "If ",
+          "start": 21.91125,
+          "end": 21.92325
+        },
+        {
+          "word": "you ",
+          "start": 21.92325,
+          "end": 22.10825
+        },
+        {
+          "word": "need ",
+          "start": 22.10825,
+          "end": 22.23625
+        },
+        {
+          "word": "medical ",
+          "start": 22.23625,
+          "end": 22.44525
+        },
+        {
+          "word": "assistance ",
+          "start": 22.44525,
+          "end": 22.80525
+        },
+        {
+          "word": "in ",
+          "start": 22.80525,
+          "end": 23.26925
+        },
+        {
+          "word": "the ",
+          "start": 23.26925,
+          "end": 23.37425
+        },
+        {
+          "word": "future, ",
+          "start": 23.37425,
+          "end": 23.47825
+        },
+        {
+          "word": "please ",
+          "start": 23.47825,
+          "end": 24.12925
+        },
+        {
+          "word": "don't ",
+          "start": 24.12925,
+          "end": 24.40725
+        },
+        {
+          "word": "hesitate ",
+          "start": 24.40725,
+          "end": 24.61625
+        },
+        {
+          "word": "to ",
+          "start": 24.61625,
+          "end": 25.06925
+        },
+        {
+          "word": "reach ",
+          "start": 25.06925,
+          "end": 25.17325
+        },
+        {
+          "word": "out.",
+          "start": 25.17325,
+          "end": 25.41725
+        }
+      ],
+      "metadata": {
+        "response_id": 5
+      }
+    },
+    {
+      "role": "tool_call_invocation",
+      "tool_call_id": "5336402044a80e0b",
+      "name": "end_call",
+      "arguments": "{\"execution_message\": \"Alright, we'll end our consultation here. If you need medical assistance in the future, please don't hesitate to reach out.\"}"
+    }
+  ],
+  "recording_url": "https://dxc03zgurdly9.cloudfront.net/call_71d3d83a1a02d5167c6127c7034/recording.wav",
+  "public_log_url": "https://dxc03zgurdly9.cloudfront.net/call_71d3d83a1a02d5167c6127c7034/public.log",
+  "disconnection_reason": "agent_hangup",
+  "latency": {
+    "llm": {
+      "p99": 2158.8199999999997,
+      "min": 0,
+      "max": 2185,
+      "p90": 1923.1999999999998,
+      "num": 3,
+      "values": [
+        0,
+        876,
+        2185
+      ],
+      "p50": 876,
+      "p95": 2054.1
+    },
+    "e2e": {
+      "p99": 2593.13,
+      "min": 1517,
+      "max": 2604,
+      "p90": 2495.3,
+      "num": 2,
+      "values": [
+        1517,
+        2604
+      ],
+      "p50": 2060.5,
+      "p95": 2549.6499999999996
+    },
+    "tts": {
+      "p99": 448.3,
+      "min": 294,
+      "max": 450,
+      "p90": 433,
+      "num": 3,
+      "values": [
+        450,
+        294,
+        365
+      ],
+      "p50": 365,
+      "p95": 441.5
+    }
+  },
+  "cost_metadata": {
+    "llm_model": "claude-3.5-haiku",
+    "voice_provider": "elevenlabs"
+  },
+  "call_cost": {
+    "total_duration_unit_price": 0.15,
+    "product_costs": [
+      {
+        "unit_price": 0,
+        "product": "retell_platform",
+        "cost": 0
+      },
+      {
+        "unit_price": 0.1166667,
+        "product": "elevenlabs_tts",
+        "cost": 3.0333333
+      },
+      {
+        "unit_price": 0.0333333,
+        "product": "claude_3_5_haiku",
+        "cost": 0.8666667
+      }
+    ],
+    "total_one_time_price": 0,
+    "combined_cost": 3.9,
+    "total_duration_seconds": 26
+  },
+  "opt_out_sensitive_data_storage": false,
+  "llm_latency": {
+    "p99": 2158.8199999999997,
+    "min": 0,
+    "max": 2185,
+    "p90": 1923.1999999999998,
+    "num": 3,
+    "values": [
+      0,
+      876,
+      2185
+    ],
+    "p50": 876,
+    "p95": 2054.1
+  },
+  "e2e_latency": {
+    "p99": 2593.13,
+    "min": 1517,
+    "max": 2604,
+    "p90": 2495.3,
+    "num": 2,
+    "values": [
+      1517,
+      2604
+    ],
+    "p50": 2060.5,
+    "p95": 2549.6499999999996
+  },
+  "call_type": "web_call",
+  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6IndlYl9jYWxsXzcxZDNkODNhMWEwMmQ1MTY3YzYxMjdjNzAzNCJ9LCJpc3MiOiJBUElqWGZBMzVHTmM3WHgiLCJleHAiOjE3MzQ2ODk4NzgsIm5iZiI6MCwic3ViIjoiY2xpZW50In0.xvf8AO33uuFLoneeysED1Ke1FDcQtl99T72n7461pNw"
+}
